@@ -53,9 +53,12 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="ve3-uV-MSL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Check">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WQ6-8N-Zgr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press Button For Check" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KdU-bj-Q09">
                                 <rect key="frame" x="16" y="189" width="343" height="20.5"/>
@@ -86,6 +89,10 @@
                             <constraint firstItem="9fK-Gh-abE" firstAttribute="top" secondItem="8Go-PV-ON8" secondAttribute="bottom" constant="23.5" id="xtx-rl-tgY"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="eMl-TZ-1gl" id="ZAm-Ed-fRC"/>
+                        <outlet property="resultLabel" destination="KdU-bj-Q09" id="yNK-tz-BZG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
