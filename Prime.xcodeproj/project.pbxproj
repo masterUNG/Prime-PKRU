@@ -13,6 +13,7 @@
 		C4E08E6F1F298EEF00700121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E08E6E1F298EEF00700121 /* Assets.xcassets */; };
 		C4E08E721F298EEF00700121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E08E701F298EEF00700121 /* LaunchScreen.storyboard */; };
 		C4E08E7A1F2991E000700121 /* bg_prime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4E08E791F2991E000700121 /* bg_prime.jpg */; };
+		C4E08E7C1F29A09300700121 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = C4E08E7B1F29A09300700121 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C4E08E711F298EEF00700121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E08E731F298EEF00700121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E08E791F2991E000700121 /* bg_prime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_prime.jpg; path = ../../../../Desktop/bg_prime.jpg; sourceTree = "<group>"; };
+		C4E08E7B1F29A09300700121 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		C4E08E5B1F298EEE00700121 = {
 			isa = PBXGroup;
 			children = (
+				C4E08E7B1F29A09300700121 /* README.md */,
 				C4E08E661F298EEE00700121 /* Prime */,
 				C4E08E651F298EEE00700121 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E08E7C1F29A09300700121 /* README.md in Sources */,
 				C4E08E6A1F298EEE00700121 /* ViewController.swift in Sources */,
 				C4E08E681F298EEE00700121 /* AppDelegate.swift in Sources */,
 			);
